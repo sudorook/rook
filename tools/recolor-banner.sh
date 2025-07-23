@@ -38,7 +38,7 @@ sed -e "s/${INFILE}/${OUTFILE}/g" \
     -e "s/#d6c6c6;/#4a7baa;/g" \
     -e "s/#d2c0c0;/#3c75aa;/g" \
     -e "s/#525252;/#11749b;/g" \
-    -e "s/#363636;/#0c536f;/g" "${INFILE}" > ${OUTFILE}
+    -e "s/#363636;/#0c536f;/g" "${INFILE}" > "${OUTFILE}"
 
 # default to turquoise
 OUTFILE=banner-turquoise.svg
@@ -52,4 +52,4 @@ sed -e "s/${INFILE}/${OUTFILE}/g" \
     -e "s/#d6c6c6;/#28c1a8;/g" \
     -e "s/#d2c0c0;/#00bda0;/g" \
     -e "s/#525252;/#00a98f;/g" \
-    -e "s/#363636;/#00967f;/g" "${INFILE}" > ${OUTFILE}
+    -e "s/#363636;/#00967f;/g" "${INFILE}" > "${OUTFILE}"
